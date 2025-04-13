@@ -8,7 +8,7 @@ from study_plan.typesx import QuestionGeneratorOutput
 gemini_llm  = LLM(
     model="gemini/gemini-1.5-pro",
     temperature=0.1,
-    api_key=os.getenv("GEMINIAPI_KEY"),
+    api_key="AIzaSyCU1V5ldjfroNoX1NGZCeTYYplfjrKncqw",
     )
 @CrewBase
 class QuestionGenerate():
