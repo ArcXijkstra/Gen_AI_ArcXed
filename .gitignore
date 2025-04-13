@@ -1,0 +1,13 @@
+.env
+__pycache__/
+lib/
+.DS_Store
+.venv
+tests
+*.lock
+*.toml
+*.md
+output
+*.md
+*.lock
+tests
